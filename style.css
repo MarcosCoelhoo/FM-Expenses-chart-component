@@ -54,10 +54,6 @@ li {
   font-weight: 700;
 }
 
-/* .header .content {
-  max-width: max-content;
-} */
-
 .header .header-decoration {
   width: 40px;
   height: 40px;
@@ -262,4 +258,17 @@ li {
 .footer-lastmonth .footer {
   color: hsl(28, 10%, 53%);
   font-size: 12px;
+}
+
+/* midia queries */
+@media (max-width: 410px) {
+  .header, .main {
+    width: 300px;
+  }
+  .list-data .data {
+    width: 24px;
+  }
+  .list-data .data::after {
+    font-size: 10px;
+  }
 }
