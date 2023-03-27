@@ -148,7 +148,7 @@ li {
 }
 
 .list-data li:nth-child(1) .data::after {
-  content: '$11.85';
+  content: attr(data-amount);
 }
 
 .list-data li:nth-child(2) .data {
@@ -156,7 +156,7 @@ li {
 }
 
 .list-data li:nth-child(2) .data::after {
-  content: '$21.00';
+  content: attr(data-amount);
 }
 
 .list-data li:nth-child(3) .data {
@@ -165,7 +165,7 @@ li {
 }
 
 .list-data li:nth-child(3) .data::after {
-  content: '$52.36';
+  content: attr(data-amount);
 }
 
 .list-data li:nth-child(4) .data {
@@ -173,7 +173,7 @@ li {
 }
 
 .list-data li:nth-child(4) .data::after {
-  content: '$26.47';
+  content: attr(data-amount);
 }
 
 .list-data li:nth-child(5) .data {
@@ -181,7 +181,7 @@ li {
 }
 
 .list-data li:nth-child(5) .data::after {
-  content: '$19.32';
+  content: attr(data-amount);
 }
 
 .list-data li:nth-child(6) .data {
@@ -189,7 +189,7 @@ li {
 }
 
 .list-data li:nth-child(6) .data::after {
-  content: '$31.07';
+  content: attr(data-amount);
 }
 
 .list-data li:nth-child(7) .data {
@@ -197,7 +197,7 @@ li {
 }
 
 .list-data li:nth-child(7) .data::after {
-  content: '$29.42';
+  content: attr(data-amount);
 }
 
 .list-data li:nth-child(1) .data:hover,
